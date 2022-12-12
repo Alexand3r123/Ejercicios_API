@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+label {
+    color: cadetblue;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+table, th, td {
+    border:  1px solid rgb(77, 0, 139);
+    background-color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    color: blueviolet;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+td{
+    font-size: 1rem;
+    font-weight: 490;
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+
+.paises {
+    text-align: center;
+    padding: 5px 0 150px 0;
+}
+
+select {
+    color: cadetblue;
+    font-size: 1rem;
+    font-weight: 400;
+}
+

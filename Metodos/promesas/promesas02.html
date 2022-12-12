@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <div class="formulario">
+    <h1>Ingresar Productos</h1>
+    <form action="promesas02.php" method="POST" id="myForm">
+        <label for="nombre">Nombre Producto:</label><br>
+        <input type="text" id="nombre" name="nombre" class="field" placeholder="Nombre Producto"><br>
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" class="field" cols="30" rows="10" placeholder="Descripción del producto"></textarea><br>
+        <label for="precio">Precio: </label><br>
+        <input type="number" id="precio" name="precio" class="field" placeholder="Ingrese el precio del producto"><br>
+        <label for="precio">Cantidad: </label><br>
+        <input type="number" id="cantidad" name="cantidad" class="field" placeholder="Ingrese el precio del producto"><br>
+        <label for="imagen">Imagen producto: </label>
+        <div class="image">
+            <img src="../pc.jpg" alt="">
+        </div>
+        <input type="submit" class="btn btn-green" value="Aceptar" id="btn-enviar">
+        <div id="contenido">
+
+        </div>
+    </form>
+    </div>
+
+<script src="promesas02.js"></script>
+</body>
+</html>
