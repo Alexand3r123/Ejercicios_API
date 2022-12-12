@@ -46,7 +46,7 @@ function infoCountry(){
             <td>${data[0].population}</td>
             <td>${data[0].area}</td>
             <td><a href="${data[0].maps.googleMaps}" target="_blank">${data[0].maps.googleMaps}</a></td>
-            <td>${data[0]}</td>
+            <td>${data[0].borders}</td>
         </tr>`
     })
 }
